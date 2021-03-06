@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: white;
+
+}
+
+.container .header{
+    
+}
+
+.container .header .headline{
+    /* background-color: white; */
+    border-bottom: solid 1px black;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.container .header .headline span{
+    color: #0229FF;
+
+}
+
+.container .header .nav{
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+}
+
+.container .header .nav .logo{
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.container .header .nav ul{
+    list-style: none;
+    padding-top: 20px;
+}
+
+
+.container .header .nav ul li{
+    display: inline;
+    padding-left: 20px;
+}
+
+.container .header .nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.container .header .banner{
+    background-color: gray;
+    padding: 240px 5%;
+}
+
+.container .header .banner h1{
+    margin-bottom: 20px;
+}
+
+.container .header .banner a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 7%;
+}
+
+.container .header .banner h2{
+    color:white;
+}
+
+.container .header .banner h1{
+    color: white;
+}
+
+.container .header .banner a{
+    width: 200px;
+}
+
+.empty_space{
+  padding-top: 200px;
+}
+
+.content .artikel img{
+    width: 200px;
+    padding-left: 55px;
+    padding-bottom: 30px;
+}
+
+.content h3{
+    text-align: center;
+    color:#66838A;
+    padding-top: 30px;
+}
+
+.content h1{
+    text-align: center;
+    font-family: calibri;
+    padding-bottom: 50px;
+}
+
+.content .artikel{
+    float: left;
+    width: 30%;
+    height: 65%;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #FFFFFF; 
+    border-radius: 10px;
+  }
+
+.content .artikel p{
+    font-family: calibri;
+    text-align:center;
+    color:#66838A;
+    position: absolute;
+    width: 20%;
+    margin-left: 30px;  
+}
+
+.content .artikel h3{
+    text-transform:uppercase;
+    font-family: calibri;
+    padding-bottom: 30px;
+    margin-top: -50px;
+}
+
+.content{
+    background-color:#EBEDED;
+    height: 700px;
+    padding-left: 130px;
+    padding-right: 100px;
+  }
+
+  .artikel{
+      margin: 0 8px 0 8px;
+  }
+  /* end content artike */
+
+.footer{
+    background-color: black;
+    height: 50px;
+}
+
+.footer p{
+    color: white;
+    padding-top: 15px;
+    padding-left:200px;
+}
+    /*end footer*/
+
+
+
